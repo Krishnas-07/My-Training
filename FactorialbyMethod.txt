@@ -1,0 +1,16 @@
+class FactorialbyMethod
+{
+int fact=1;
+public int factorial(int n)
+{
+for(int i=1;i<=n;i++)
+{ fact=fact*n;
+}
+return fact;
+} 
+public static void main(String args[])
+{
+FactorialbyMethod obj=new FactorialbyMethod();
+int s= obj.factorial(5);
+System.out.println("Factorial of the given number is "+s);
+}}
